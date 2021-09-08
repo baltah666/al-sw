@@ -1,28 +1,3 @@
-[switch]
-cl-sw1
-cl-sw2
-al-sw1
-al-sw2
-fw-sw
+[routers]
+192.168.174.31 ansible_user=admin ansible_password=cisco
 
-[al-sw]
-al-sw1
-al-sw2
-
-[cl-sw]
-cl-sw1
-cl-sw2
-
-[core]
-core-1
-core-2
-
-
-[mpls]
-core-1
-core-2
-pe-17
-pe-18
-p
-pe01
-pe02
